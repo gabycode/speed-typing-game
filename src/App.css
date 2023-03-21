@@ -27,6 +27,10 @@ textarea {
   padding: 10px;
 }
 
+textarea:disabled {
+  background: #a5a2a2;
+}
+
 button {
   font-family: "Press Start 2P", cursive;
   display: block;
@@ -36,4 +40,8 @@ button {
   background: #00b800;
   padding: 10px 20px;
   text-transform: uppercase;
+}
+
+button:disabled {
+  cursor: not-allowed;
 }
