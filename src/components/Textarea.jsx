@@ -7,6 +7,7 @@ const Textarea = (props) => {
       value={props.text}
       onChange={props.handleChange}
       disabled={!props.isTimeRunning}
+      ref={props.textAreaRef}
     />
   );
 };
