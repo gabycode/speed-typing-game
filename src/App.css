@@ -31,6 +31,10 @@ textarea:disabled {
   background: #a5a2a2;
 }
 
+textarea:focus {
+  border: 3px solid white;
+}
+
 button {
   font-family: "Press Start 2P", cursive;
   display: block;
@@ -44,4 +48,10 @@ button {
 
 button:disabled {
   cursor: not-allowed;
+}
+
+@media (min-width: 768px) {
+  textarea {
+    max-width: 50em;
+  }
 }
